@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workout Tracker</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Workout Tracker</h1>
+  <form id="tracker-form">
+    <input type="date" name="date" required />
+    <input type="text" name="exercise" placeholder="Exercise" required />
+    <input type="number" name="weight" placeholder="Weight (kg)" required />
+    <input type="number" name="reps" placeholder="Reps" required />
+    <button type="submit">Add</button>
+  </form>
+
+  <canvas id="progressChart" width="600" height="300"></canvas>
+
+  <script src="/script.js"></script>
+</body>
+</html>
